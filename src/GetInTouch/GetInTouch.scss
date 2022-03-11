@@ -1,0 +1,76 @@
+.get-in-touch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  margin-top: 250px;
+  flex-direction: column;
+}
+
+.get-in-touch h1 {
+  font-size: 200px;
+  font-weight: lighter;
+  font-family: "Ogg";
+}
+
+.get-in-touch p {
+  font-size: 20px;
+  margin-top: -150px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "Inter";
+}
+
+.get-in-touch img {
+  width: 500px;
+  margin-top: -400px;
+  opacity: 0.1;
+  animation: animate-rotate 30s linear infinite;
+}
+
+@keyframes animate-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1300px) {
+  .get-in-touch h1 {
+    font-size: 70px;
+  }
+  .get-in-touch img {
+    width: 200px;
+    margin-top: -130px;
+    opacity: 1;
+  }
+  .get-in-touch p {
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: "Inter";
+  }
+}
+
+@media (max-width: 500px) {
+  .get-in-touch h1 {
+    font-size: 50px;
+  }
+  .get-in-touch p {
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .get-in-touch img {
+    margin-top: -90px;
+  }
+
+  .get-in-touch {
+    height: 400px;
+  }
+}

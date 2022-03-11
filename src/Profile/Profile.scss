@@ -1,0 +1,172 @@
+.container-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 10%;
+  margin-top: 10vh;
+  display: flex;
+  font-size: 200px;
+  font-family: "Ogg";
+  font-weight: lighter;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  letter-spacing: -10px;
+}
+.container-text p {
+  overflow: hidden;
+}
+
+.container-inner-text2 {
+  margin-top: -520px;
+}
+
+.container-quote {
+  position: absolute;
+  top: 70vh;
+  right: 100px;
+  font-family: "Inter";
+  font-size: 15px;
+  color: #642420;
+  word-spacing: 10px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.container-image {
+  position: absolute;
+  top: 95vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  background: url(../Assets/taro1.jpeg) 50% 50% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+  height: 110vh;
+  z-index: -1;
+}
+
+.container-quote2 {
+  position: absolute;
+  top: 160vh;
+  left: 10%;
+}
+
+.profile-container2 {
+  position: absolute;
+  top: 190vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 250vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+.profile-container2-heading,
+.profile-container2-heading2,
+.profile-container2-heading2 p {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.profile-container2-heading p,
+.profile-container2-heading2 p {
+  font-size: 190px;
+  font-family: "Ogg";
+  line-height: 0%;
+  font-weight: lighter;
+  letter-spacing: -8px;
+}
+
+.profile-container2-heading2 p {
+  text-decoration: line-through 5px #806868;
+}
+
+.profile-container2-p p {
+  font-size: 18px;
+  font-family: "Inter";
+  margin-bottom: 80px;
+  color: #642420;
+  word-spacing: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.profile-container2-p-right {
+  text-align: right;
+}
+
+.profile-container-flower {
+  position: absolute;
+  top: 80vh;
+  left: 100px;
+  animation: animate-rotate 10s infinite linear;
+}
+
+.profile-container-flower img {
+  width: 100px;
+}
+
+.profile-footer {
+  margin-top: 500vh;
+}
+
+@keyframes animate-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1000px) {
+  .container-text {
+    font-size: 120px;
+  }
+  .container-inner-text2 {
+    margin-top: -300px;
+  }
+  .profile-container2-heading p,
+  .profile-container2-heading2 p {
+    font-size: 140px;
+  }
+  .profile-container-flower {
+    top: 70vh;
+  }
+  .profile-container2-heading {
+    margin-top: 100px;
+  }
+  .profile-container2-heading2 p {
+    font-size: 80px;
+  }
+
+  .profile-footer {
+    margin-top: 450vh;
+  }
+}
+
+@media (max-width: 650px) {
+  .profile-container2-heading2 p,
+  .profile-container2-heading p {
+    font-size: 90px;
+  }
+  .container-quote1 {
+    top: 50vh;
+  }
+  .container-image {
+    width: 95vw;
+  }
+  .container-text {
+    margin-left: 15px;
+  }
+  .profile-container2-p p {
+    font-size: 15px;
+  }
+  .profile-footer {
+    margin-top: 430vh;
+  }
+}
