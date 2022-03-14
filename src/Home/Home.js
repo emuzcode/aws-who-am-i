@@ -47,7 +47,6 @@ function Home() {
             <p ref={el => text2 = el }>Sakazume</p>
           </div>
         </div>
-        <div></div>
       </div>
       <div className="left-side-quote">
         <p ref={el => p1 = el }>I create digital experiences that merge art <br /> direction, branding, creative strategy, web <br /> design, prototyping, and digital interactions.</p>
@@ -87,7 +86,7 @@ function Home() {
             I ALWAYS TRY TO FIND THE OPTIMAL SOLUTION TO THE CLIENT'S TASK.
           </p>
         </div>
-        <div className="another-svg">
+        <div className="another">
           {/* <img src={another} alt="" /> */}
         </div>
       </div>

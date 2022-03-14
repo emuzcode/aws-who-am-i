@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer-container">
           <div className="message-for-users">
             <span>
-              Please contact me in any way <br /> you like.
+              Please contact me in any way you like.
             </span>
           </div>
           <div className="social-links">
@@ -16,13 +16,8 @@ function Footer() {
               Social
             </div>
             <div className="social-likes-items">
-              <a href="">Youtube</a>
-              <a href="">Facebook</a>
-              <a href="">Instagram</a>
               <a href="">Twitter</a>
               <a href="">Github</a>
-              <a href="">LinkedIn</a>
-              <a href="">Snapchat</a>
             </div>
           </div>
           <div className="social-links">
@@ -31,9 +26,9 @@ function Footer() {
             </div>
             <div className="social-likes-items">
               <a href="">Mail</a>
-              <a href="">Whatsapp</a>
-              <a href="">Telegram</a>
-              <a href="">080 1234 5678</a>
+              <a href="">Twitter</a>
+              <a href="">Discord</a>
+              <a href="">Slack</a>
             </div>
           </div>
           <div className="footer-menu social-links">
@@ -53,10 +48,10 @@ function Footer() {
         </div>
         <div className="footer-bottom">
           <div className="left-footer-bottom">
-            <p>Pakistan</p>
+            <p>Japan</p>
           </div>
           <div className="right-footer-bottom">
-            <p>2021. Taro Sakazueme. ALL RIGHT RESERVED</p>
+            <p>2022. Taro Sakazueme. ALL RIGHT RESERVED</p>
           </div>
         </div>
       </div>

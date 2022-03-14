@@ -12,13 +12,12 @@
   flex-direction: column;
   justify-content: center;
   letter-spacing: -10px;
-}
-.container-text p {
-  overflow: hidden;
-}
-
-.container-inner-text2 {
-  margin-top: -520px;
+  p {
+    overflow: hidden;
+  }
+  .container-inner-text2 {
+    margin-top: -520px;
+  }
 }
 
 .container-quote {
@@ -58,69 +57,63 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   height: 250vh;
   width: 100%;
   flex-direction: column;
-}
+  .profile-container2-heading,
+  .profile-container2-heading2,
+  .profile-container2-heading2 p {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+  .profile-container2-heading p,
+  .profile-container2-heading2 p {
+    font-size: 190px;
+    font-family: "Ogg";
+    line-height: 0%;
+    font-weight: lighter;
+    letter-spacing: -8px;
+  }
+  .profile-container2-heading2 p {
+    text-decoration: line-through 5px #806868;
+  }
 
-.profile-container2-heading,
-.profile-container2-heading2,
-.profile-container2-heading2 p {
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-bottom: 50px;
-}
+  .profile-container2-p p {
+    font-size: 18px;
+    font-family: "Inter";
+    margin-bottom: 80px;
+    color: #642420;
+    word-spacing: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
 
-.profile-container2-heading p,
-.profile-container2-heading2 p {
-  font-size: 190px;
-  font-family: "Ogg";
-  line-height: 0%;
-  font-weight: lighter;
-  letter-spacing: -8px;
-}
+  .profile-container2-p-right {
+    text-align: right;
+  }
 
-.profile-container2-heading2 p {
-  text-decoration: line-through 5px #806868;
-}
-
-.profile-container2-p p {
-  font-size: 18px;
-  font-family: "Inter";
-  margin-bottom: 80px;
-  color: #642420;
-  word-spacing: 12px;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-.profile-container2-p-right {
-  text-align: right;
-}
-
-.profile-container-flower {
-  position: absolute;
-  top: 80vh;
-  left: 100px;
-  animation: animate-rotate 10s infinite linear;
-}
-
-.profile-container-flower img {
-  width: 100px;
+  .profile-container-flower {
+    position: absolute;
+    top: 80vh;
+    left: 100px;
+    animation: animate-rotate 10s infinite linear;
+  }
+  @keyframes animate-rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .profile-container-flower img {
+    width: 100px;
+  }
 }
 
 .profile-footer {
   margin-top: 500vh;
-}
-
-@keyframes animate-rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 @media (max-width: 1000px) {

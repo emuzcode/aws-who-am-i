@@ -25,8 +25,23 @@ function Contact() {
       <div className="contact-page">
         <div className="contact-page-container">
           <h1 ref={el => text1 = el}>
-            Let's talk about <br /> the projects? <img src="#" alt="" />
+            Contact Me 
+            <img src="#" alt="" />
           </h1>
+          <ul>
+            <li>
+              <p>Mail</p>
+            </li>
+            <li>
+              <p>Twitter</p>
+            </li>
+            <li>
+              <p>Discord</p>
+            </li>
+            <li>
+              <p>Slack</p>
+            </li>
+          </ul>
         </div>
       </div>
       <Footer />
