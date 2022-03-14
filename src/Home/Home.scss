@@ -35,8 +35,20 @@
 .left-side-quote {
   margin-left: 120px;
   p {
-    color: black;
-    font-size: 15px;
+    color: #ccc;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    word-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+}
+
+.left-side-quote2 {
+  margin-left: 640px;
+  p {
+    color: #ccc;
+    font-size: 20px;
     font-family: "Times New Roman";
     word-spacing: 10px;
     text-transform: uppercase;
@@ -45,11 +57,11 @@
 }
 
 .earth-png {
-  margin-left: 250px;
-  margin-top: -350px;
+  margin-left: 40px;
+  margin-top: -650px;
   img {
     animation: animate-rotate 30s infinite linear;
-    width: 280px;
+    width: 600px;
   }
 }
 
@@ -69,7 +81,7 @@
 }
 
 .short-about {
-  margin-top: 286px;
+  margin-top: 150px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -87,10 +99,10 @@
     }
   }
   .sub-main-p-short-about {
-    margin-top: 120px;
+    margin-top: 160px;
     p {
       text-align: center;
-      color: black;
+      color: #ccc;
       font-family: "Times New Roman";
       font-weight: 500;
       font-size: 18px;

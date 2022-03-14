@@ -5,7 +5,6 @@ import earth from '../Assets/earth2.png'
 //import another from '../Assets/anothersvg'
 //import arrow from '../Assets/arrow.svg'
 import {Link} from 'react-router-dom';
-import GetInTouch from '../GetInTouch/GetInTouch';
 import Footer from '../Footer/Footer';
 import gsap from 'gsap';
 
@@ -49,19 +48,32 @@ function Home() {
         </div>
       </div>
       <div className="left-side-quote">
-        <p ref={el => p1 = el }>I create digital experiences that merge art <br /> direction, branding, creative strategy, web <br /> design, prototyping, and digital interactions.</p>
+        <p ref={el => p1 = el }>
+          Who are you ?<br />
+          未経験からエンジニアという職業の道へ<br />
+          職業訓練校ICTエンジニア科にて勉強中<br />
+          テクノロジーでエンターテイメント業界に貢献したい
+        </p>
       </div>
 
       <div className="container">
         <div></div>
         <div className="container1">
           <div className="txt-line" id="digital">
-            <p ref={el => text3 = el }>Digital</p>
+            <p ref={el => text3 = el }>Web</p>
           </div>
           <div className="txt-line line-bottom" id="designer">
-            <p ref={el => text4 = el }>Designer</p>
+            <p ref={el => text4 = el }>Developer</p>
           </div>
         </div>
+      </div>
+      <div className="left-side-quote2">
+        <p ref={el => p1 = el }>
+          Why ?<br />
+          ０から１を作る魅力的な仕事<br />
+          様々な業界に対して掛け算になる可能性<br />
+          マイノリティ側の人をテクノロジーで助けたい
+        </p>
       </div>
       <div className="earth-png">
         <img src={earth} alt="" />
@@ -75,15 +87,22 @@ function Home() {
             About
           </h1>
           <h1 className="main-short-about">
-            Myself!
+            Myself
           </h1>
         </div>
         <div className="sub-main-p-short-about">
           <p className="sub-main-short-about">
-            I BELIEVE THAT EVERY PROJECT THAT I DO SHOULD HAVE AN OVERVALUE.
+            １９９５年１０月に埼玉県秩父市で生まれ<br />
+            神奈川県相模原市で育つ<br />
+            高校２年の夏にNew Zealandに留学<br />
+            アメリカのロサンゼルスにある短大を卒業<br />
+            一流の接客を極めたいと決めホテル業界へ<br />
+            あるきっかけを通じてエンジニアの道にシフト<br />
+            ギターと料理が趣味<br />
+            実は新宿南口で路上バンドもしていた
           </p>
           <p className="sub-main-short-about">
-            I ALWAYS TRY TO FIND THE OPTIMAL SOLUTION TO THE CLIENT'S TASK.
+            
           </p>
         </div>
         <div className="another">
@@ -92,11 +111,6 @@ function Home() {
       </div>
       <div className="my-skills-main-reel">
         <div className="my-skills-reel" id="skill-reel">
-          <div className="reel-item">&nbsp; -- My skills</div>
-          <div className="reel-item">&nbsp; -- My skills</div>
-          <div className="reel-item">&nbsp; -- My skills</div>
-          <div className="reel-item">&nbsp; -- My skills</div>
-          <div className="reel-item">&nbsp; -- My skills</div>
           <div className="reel-item">&nbsp; -- My skills</div>
           <div className="reel-item">&nbsp; -- My skills</div>
           <div className="reel-item">&nbsp; -- My skills</div>
@@ -154,8 +168,6 @@ function Home() {
           <br />
           <p>Click me!</p>
         </div>
-
-        <GetInTouch />
 
         <Footer />
       </div>
