@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react'
 import Footer from '../Footer/Footer';
-import GetInTouch from '../GetInTouch/GetInTouch';
 import Header from '../Header/Header';
 import './Works.scss'
 //import '../Assets/arrow.svg'
@@ -77,7 +76,6 @@ function Works() {
           </div> 
         </div>
       </div>
-      <GetInTouch />
       <Footer />
     </div>
   )

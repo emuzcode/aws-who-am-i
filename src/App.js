@@ -77,7 +77,7 @@ function App() {
   let width2 = 0;
 
   function loading(){
-    id = setInterval(frame, 50);
+    id = setInterval(frame, 30);
   }
   function frame(){
     if (width1 ===  384400 && width2 >= 100) {
