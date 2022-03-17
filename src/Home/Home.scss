@@ -24,6 +24,8 @@
         overflow: hidden;
         height: 100%;
         line-height: 90%;
+        color: rgb(235, 234, 225);
+        text-shadow: 2px 2px #111;
       }
     }
     .line-bottom {
@@ -40,14 +42,16 @@
   flex-direction: column;
   margin-top: 200px;
   h2 {
-    color: #ccc;
+    color: rgb(235, 234, 225);
+    text-shadow: 2px 2px #111;
     font-size: 30px;
     font-family: "Bradley Hand";
     word-spacing: 15px;
     font-weight: 500;
   }
   p {
-    color: #ccc;
+    color: rgb(235, 234, 225);
+    text-shadow: 2px 2px #111;
     font-size: 20px;
     font-family: "Times New Roman";
     word-spacing: 10px;
@@ -62,7 +66,8 @@
   justify-content: space-between;
   flex-direction: column;
   p {
-    color: #ccc;
+    color: rgb(235, 234, 225);
+    text-shadow: 2px 2px #111;
     font-size: 20px;
     font-family: "Times New Roman";
     word-spacing: 10px;
@@ -118,7 +123,8 @@
     h2,
     h3 {
       text-align: center;
-      color: #ccc;
+      color: rgb(235, 234, 225);
+      text-shadow: 2px 2px #111;
       font-family: "Times New Roman";
       font-weight: 500;
       margin-top: 50px;
@@ -126,7 +132,8 @@
     }
     p {
       text-align: left;
-      color: #ccc;
+      color: rgb(235, 234, 225);
+      text-shadow: 2px 2px #111;
       font-family: "Times New Roman";
       font-weight: 500;
       font-size: 18px;
@@ -233,13 +240,15 @@
     h1,
     .h1-work {
       text-decoration: none;
-      color: #ccc;
+      color: rgb(235, 234, 225);
+      text-shadow: 2px 2px #111;
       font-size: 100px;
       font-weight: lighter;
       font-family: "Bradley Hand";
     }
     p {
-      color: #ccc;
+      color: rgb(235, 234, 225);
+      text-shadow: 2px 2px #111;
       font-size: 20px;
       margin-top: -30px;
       font-weight: lighter;

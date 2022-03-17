@@ -11,12 +11,59 @@
     letter-spacing: 80%;
     font-size: 100px;
     font-weight: lighter;
-    font-family: "Ogg";
+    font-family: "Bradley Hand";
     img {
       width: 150px;
       margin-left: 50px;
       margin-bottom: 100px;
       animation: animate-rotate 10s infinite linear;
+    }
+  }
+}
+
+.c-container {
+  display: flex;
+  align-items: left;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 80%;
+  a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-family: "Bradley Hand";
+    font-size: 50px;
+    font-weight: lighter;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom: 1px dashed transparent;
+    transition: border 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    &:hover {
+      border-bottom: 1px dashed white;
+      transition: text-decoration 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+  }
+  p {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-family: "Bradley Hand";
+    margin-left: 40px;
+    font-size: 30px;
+  }
+  .social-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    .social-links-h {
+      font-size: 30px;
+      margin-bottom: 10px;
+      font-family: "Bradley Hand";
+      font-weight: bold;
+    }
+    .social-likes-items {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
     }
   }
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.scss'
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -16,8 +17,9 @@ function Footer() {
               Social
             </div>
             <div className="social-likes-items">
-              <a href="">Twitter</a>
-              <a href="">Github</a>
+              <a href="https://twitter.com/TaroSakazume">Twitter</a>
+              <a href="https://github.com/emuzcode">Github</a>
+              <a href="https://www.wantedly.com/id/taro_sakazume_2022">Wantedly</a>
             </div>
           </div>
           <div className="social-links">
@@ -25,10 +27,8 @@ function Footer() {
               Contact
             </div>
             <div className="social-likes-items">
-              <a href="">Mail</a>
-              <a href="">Twitter</a>
-              <a href="">Discord</a>
-              <a href="">Slack</a>
+              <a href="mailto:ts95.business@gmail.com">Mail</a>
+              <a href="https://twitter.com/TaroSakazume">Twitter</a>
             </div>
           </div>
           <div className="footer-menu social-links">
@@ -36,14 +36,14 @@ function Footer() {
               Other menu
             </div>
             <div className="footer-menu-links social-likes-items">
-              <p className="footer-menu-links-items">Home.</p>
-              <p className="footer-menu-links-items">About.</p>
-              <p className="footer-menu-links-items">Projects.</p>
-              <p className="footer-menu-links-items">Contact.</p>
+              <Link to="/" className='footer-menu-links-items'>Home.</Link>
+              <Link to="/profile" className='footer-menu-links-items'>Profile.</Link>
+              <Link to="/works" className='footer-menu-links-items'>Works.</Link>
+              <Link to="/contact" className='footer-menu-links-items'>Contact.</Link>
             </div>
           </div>
           <div className="footer-btn">
-            <a href="" className='footer-btn-a'>Get Started!</a>
+            <a href="/contact" className='footer-btn-a'>Get Contact</a>
           </div>
         </div>
         <div className="footer-bottom">

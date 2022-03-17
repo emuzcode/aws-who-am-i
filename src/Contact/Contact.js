@@ -28,20 +28,18 @@ function Contact() {
             Contact Me 
             <img src="#" alt="" />
           </h1>
-          <ul>
-            <li>
-              <p>Mail</p>
-            </li>
-            <li>
-              <p>Twitter</p>
-            </li>
-            <li>
-              <p>Discord</p>
-            </li>
-            <li>
-              <p>Slack</p>
-            </li>
-          </ul>
+        </div>
+        <div class="c-container">
+          <div className="social-likes-items">
+            <a href="mailto:ts95.business@gmail.com">Mail</a>
+            <p>ts95.business@gmail.com</p>
+          </div>
+        </div>
+        <div class="c-container">
+          <div className="social-likes-items">
+            <a href="https://twitter.com/TaroSakazume">Twitter</a>
+            <p>たろうまる＠TaroSakazume</p>
+          </div>
         </div>
       </div>
       <Footer />

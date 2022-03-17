@@ -47,8 +47,8 @@ function Works() {
               </div>
               <a href="/">
                 <div className="work-page-item-header">
-                  <h1>Lorem, ipsum.</h1>
-                  <p>Lorem, ipsum.</p>
+                  <h1>Worship App</h1>
+                  <p>ギター弾き語り用Webアプリ</p>
                 </div>
                 <div className="work-page-item-image work-page-item-image1"></div>
                 <div className="work-page-item-footer">
@@ -63,8 +63,8 @@ function Works() {
               </div>
               <a href="/">
                 <div className="work-page-item-header">
-                  <h1>Lorem, ipsum.</h1>
-                  <p>Lorem, ipsum.</p>
+                  <h1>Who Am I</h1>
+                  <p>個人紹介専用Webアプリ</p>
                 </div>
                 <div className="work-page-item-image work-page-item-image2"></div>
                 <div className="work-page-item-footer">

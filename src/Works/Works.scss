@@ -7,8 +7,8 @@
   height: 50vh;
   border-bottom: 1px dashed black;
   h1 {
-    font-family: "Ogg";
-    font-size: 220px;
+    font-family: "Bradley Hand";
+    font-size: 200px;
     font-weight: lighter;
     line-height: 80%;
     text-transform: capitalize;
@@ -16,7 +16,8 @@
 }
 
 .work-page a {
-  color: #ccc;
+  color: rgb(235, 234, 225);
+  text-shadow: 2px 2px #111;
   text-decoration: none;
 }
 
@@ -43,7 +44,7 @@
       .work-page-item-number p {
         font-size: 10px;
         font-weight: 500;
-        font-family: "Inter";
+        font-family: "Times New Roman";
       }
       .work-page-item-header {
         display: flex;
@@ -54,13 +55,13 @@
           font-size: 15px;
           font-weight: bold;
           width: 50%;
-          font-family: "Inter";
+          font-family: "Times New Roman";
           text-transform: uppercase;
         }
         p {
           font-size: 10px;
           font-weight: 500;
-          font-family: "Inter";
+          font-family: "Times New Roman";
           width: 50%;
           text-transform: uppercase;
         }
@@ -86,8 +87,7 @@
         p {
           font-size: 12px;
           font-weight: 400;
-          font-family: "Inter";
-          text-transform: uppercase;
+          font-family: "Times New Roman";
         }
         img {
           width: 12px;
@@ -100,12 +100,12 @@
 }
 
 /* .work-page-item-image1 {
-  background-image: url(../Assets/portfolio1.jpeg);
-}
+  background-image: url(../Assets/portfolio1.png);
+} */
 
 .work-page-item-image2 {
-  background-image: url(../Assets/portfolio2.jpeg);
-} */
+  background-image: url(../Assets/portfolio2.png);
+}
 
 @media (max-width: 900px) {
   .my-works {
