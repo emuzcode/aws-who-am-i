@@ -19,7 +19,7 @@ function Footer() {
             <div className="social-likes-items">
               <a href="https://twitter.com/TaroSakazume">Twitter</a>
               <a href="https://github.com/emuzcode">Github</a>
-              <a href="https://www.wantedly.com/id/taro_sakazume_2022">Wantedly</a>
+              <a href="/">Wantedly</a>
             </div>
           </div>
           <div className="social-links">
