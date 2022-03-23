@@ -45,7 +45,7 @@ function Works() {
               <div className="work-page-item-number">
                 <p>01/02</p>
               </div>
-              <a href="/">
+              <a href="https://worship.tokyo">
                 <div className="work-page-item-header">
                   <h1>Worship App</h1>
                   <p>ギター弾き語り用Webアプリ</p>
@@ -61,7 +61,7 @@ function Works() {
               <div className="work-page-item-number">
                 <p>02/02</p>
               </div>
-              <a href="/">
+              <a href="https://who-am-i.biz">
                 <div className="work-page-item-header">
                   <h1>Who Am I</h1>
                   <p>個人紹介専用Webアプリ</p>
