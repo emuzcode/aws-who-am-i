@@ -52,7 +52,7 @@ function Works() {
                 </div>
                 <div className="work-page-item-image work-page-item-image1"></div>
                 <div className="work-page-item-footer">
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>詳細ページは更新中です</p>
                   {/* <img src={arrow} alt="" /> */}
                 </div>
               </a>
@@ -68,7 +68,7 @@ function Works() {
                 </div>
                 <div className="work-page-item-image work-page-item-image2"></div>
                 <div className="work-page-item-footer">
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>詳細ページは更新中です</p>
                   {/* <img src={arrow} alt="" /> */}
                 </div>
               </a>
