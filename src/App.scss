@@ -8,6 +8,14 @@ body {
   color: #ccc;
 }
 
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
 .App {
   margin: 0;
   padding: 0;
