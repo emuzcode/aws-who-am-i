@@ -37,7 +37,7 @@ textarea {
   display: none;
 }
 
-.cursor-follower {
+.cursor-spaceship {
   position: absolute;
   background: url(./Assets/spaceship.png) no-repeat 50% 50%;
   background-size: cover;
@@ -63,7 +63,7 @@ textarea {
 }
 
 @media (max-width: 768px) {
-  .cursor-follower {
+  .cursor-spaceship {
     display: none;
   }
 }

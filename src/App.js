@@ -123,7 +123,7 @@ function App() {
           <Switch>
             <Route path="/contact" exact><Contact /></Route>
           </Switch>
-          <div className="cursor-follower" ref={ el => cursor = el }></div>
+          <div className="cursor-spaceship" ref={ el => cursor = el }></div>
         </div>
       </Router>
     </div>

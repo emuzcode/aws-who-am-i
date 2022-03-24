@@ -17,6 +17,7 @@
     overflow: hidden;
     .txt-line {
       overflow: hidden;
+      z-index: 10;
       p {
         font-size: 180px;
         text-transform: capitalize;
@@ -48,6 +49,7 @@
     font-family: "Bradley Hand";
     word-spacing: 15px;
     font-weight: 500;
+    z-index: 10;
   }
   p {
     color: rgb(235, 234, 225);
@@ -56,6 +58,7 @@
     font-family: "Times New Roman";
     word-spacing: 10px;
     font-weight: 300;
+    z-index: 10;
   }
 }
 
@@ -120,9 +123,9 @@
   }
   .sub-main-p-short-about {
     margin-top: 160px;
-    h2,
-    h3 {
-      text-align: center;
+    h2 {
+      font-size: 28px;
+      text-align: left;
       color: rgb(235, 234, 225);
       text-shadow: 2px 2px #111;
       font-family: "Times New Roman";
@@ -130,7 +133,7 @@
       margin-top: 50px;
       margin-bottom: 20px;
     }
-    p {
+    h3 {
       text-align: left;
       color: rgb(235, 234, 225);
       text-shadow: 2px 2px #111;
@@ -138,6 +141,7 @@
       font-weight: 500;
       font-size: 18px;
       margin-top: 20px;
+      margin-left: 100px;
     }
   }
   .another {
@@ -261,30 +265,46 @@
 }
 
 @media (max-width: 1200px) {
-  .txt-line p {
-    font-size: 100px;
-    letter-spacing: -5px;
-    font-weight: 500;
+  .container {
+    .container1 {
+      .txt-line p {
+        font-size: 150px;
+        letter-spacing: -5px;
+        font-weight: 500;
+      }
+      .line-bottom {
+        margin-top: -200px;
+      }
+    }
   }
-  .line-bottom {
-    margin-top: -200px;
-  }
-  .flower-svg {
-    display: none;
-  }
-  .short-about h1 {
-    font-size: 100px;
+
+  .left-side-quote {
     margin: 0;
-    line-height: 88%;
   }
 
-  .short-about p {
-    margin-top: 5px;
-    font-weight: 300;
+  .earth-png img {
+    width: 500px;
   }
 
-  .sub-main-p-short-about {
-    margin-top: 10px;
+  .short-about {
+    .main-h1-short-about h1 {
+      margin: 0;
+      line-height: 88%;
+    }
+    .main-h1-short-about p {
+      margin-top: 5px;
+      font-weight: 300;
+    }
+    .sub-main-p-short-about {
+      margin-top: 20px;
+      h2 {
+        font-size: 25px;
+      }
+      h3 {
+        margin-left: 10px;
+      }
+    }
+  
   }
 
   .reel-item {
